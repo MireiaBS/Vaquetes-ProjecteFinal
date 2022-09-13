@@ -1,0 +1,20 @@
+.div-video {
+    background-color: #ecf5ef;
+    height: 20cm;
+    width: 90%;
+    margin:0cm;
+    padding-top:1cm;
+    display: flex;
+    justify-content: center;
+}
+
+.article {
+    padding-top:1cm;
+    display: flex;
+    justify-content: center;
+    margin:0 cm;
+    background-color: rgb(247, 255, 246);
+    height: 15cm;
+    width: 80%;
+    
+}

@@ -1,0 +1,25 @@
+input {
+    display: block;
+    margin: 12px;
+}
+button {   
+    color: rgb(255, 255, 255);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgba(50, 108, 44, 0.02);
+    opacity: 100%;
+    
+}
+
+#root {
+    justify-content: center;    
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
