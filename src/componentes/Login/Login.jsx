@@ -4,7 +4,7 @@ import { useState } from 'react'
 import firebaseApp from '../../credenciales';
 import { 
   getAuth, 
-  createUserWithEmailAndPassword, 
+  //createUserWithEmailAndPassword, 
   signInWithEmailAndPassword,
   signInWithRedirect,
   GoogleAuthProvider
@@ -24,7 +24,7 @@ export const Login = ({user}) => {
   const submitHandler = async (e) => {
     
     if (estaRegistrandose) {
-    const usuarioFinal = await createUserWithEmailAndPassword( auth, email, password)
+    //const usuarioFinal = await createUserWithEmailAndPassword( auth, email, password)
     //console.log(usuarioFinal)
     } else {
       signInWithEmailAndPassword(auth, email, password)
@@ -34,12 +34,12 @@ export const Login = ({user}) => {
   console.log(password, email)
   return (<>
    { !user ? <>
-      <h1> {estaRegistrandose ? "Registra\'t " : "Inicia sessió"}</h1>
+      <h1> {estaRegistrandose ? "Registra't " : "Inicia sessió"}</h1>
       <form >
         <input type='text' placeholder='Email' onChange={ (e) => setEmail(e.target.value)}/>
         <input type='password' placeholder='Contraseña' onChange={ (e) => setPassword(e.target.value)} />
         <button type='button' value='Loguear' onClick={submitHandler}>
-          {estaRegistrandose ? <Link to='/inici'>Registra\'t </Link>  : "Incia sessió"}
+          {estaRegistrandose ? <Link to='/'>Registra\'t </Link>  : "Incia sessió"}
         </button>
       </form>
 
@@ -51,7 +51,7 @@ export const Login = ({user}) => {
         {estaRegistrandose ? "Ja tens compte? Inicia sessió." : '¿No tens compte?  Regístra\'t! '}
       </button>
       <button>
-      <Link to='/inici'>Torna a l'inici</Link></button>
+      <Link to='/'>Torna a l'inici</Link></button>
       </> :
      <Nav/>
     } 

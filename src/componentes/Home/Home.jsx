@@ -3,7 +3,6 @@ import '../Home/home.css'
 import firebaseApp from '../../credenciales'
 import { getAuth, signOut } from "firebase/auth"
 import userImg from '../../assets/img/user.png'
-import { Login } from '../Login/Login'
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
 
@@ -36,11 +35,11 @@ export const Home = ({ user }) => {
             </div>
             :
             <div className='div-login'>
-              <img src={userImg} className='login-img' />
+              <img alt='' src={userImg} className='login-img' />
               <div className='login-text'>
                 <p className='p-hello'> Hola de nou!   </p>
                 <button className='p-hello' onClick={changeStates}>
-                  <Link to='/inici'> |
+                  <Link to='/'> |
                     Tancar sessió
                   </Link></button>
               </div>

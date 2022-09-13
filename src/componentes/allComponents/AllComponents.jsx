@@ -1,7 +1,6 @@
 import React from 'react'
 import { Route, Routes } from 'react-router-dom';
 import { Nav } from '../Nav/Nav'
-import { Home } from '../Home/Home';
 import {Inici} from '../Inici/Inici'
 import {QuiSom} from '../QuiSom/QuiSom'
 import {Espectacles} from '../Espectacles/Espectacles'
@@ -11,7 +10,7 @@ import { Login } from '../Login/Login';
 export const AllComponents = ({user}) => {
   return ( <Routes>
 
-            <Route  path='/inici' className='display' element={
+            <Route  path='/' className='display' element={
                    <>      
                 <Nav  user={user}/>
                 <Inici />

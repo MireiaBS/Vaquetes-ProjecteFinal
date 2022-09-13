@@ -1,10 +1,9 @@
 import React from 'react'
-import { useState, useEffect } from 'react';
-import { Nav } from './componentes/Nav/Nav';
+import { useState } from 'react';
 import "./css/css.css"
 import firebaseApp from './credenciales';
 import {getAuth, onAuthStateChanged} from "firebase/auth"
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import AllComponents from '../src/componentes/allComponents/AllComponents'
 
 const auth = getAuth(firebaseApp);

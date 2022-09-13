@@ -1,9 +1,6 @@
 import React from 'react'
 import '../Nav/nav.css'
 import { Home } from '../Home/Home'
-import { Login } from '../Login/Login'
-import firebaseApp from '../../credenciales'
-import { getAuth, signOut } from "firebase/auth"
 import logo from '../../assets/img/logo.png'
 import insta from '../../assets/img/instagram.png'
 import facebook from '../../assets/img/facebook.png'
@@ -13,8 +10,8 @@ export const Nav = ({ user }) => {
 
   return (<div className='container'>
     <div className='div-content'>
-      <Link to='/inici' >
-        <img src={logo} className='logo' />
+      <Link to='/' >
+        <img src={logo} alt='' className='logo' />
       </Link>
       <div>
 
@@ -25,7 +22,7 @@ export const Nav = ({ user }) => {
 
     <div className='parent'>
       
-      <Link to="/inici" className='div1 no-underline' >
+      <Link to="/" className='div1 no-underline' >
         <p>Inici</p>
       </Link>
       <Link to="/quisom" className='div2 no-underline' >
@@ -38,8 +35,8 @@ export const Nav = ({ user }) => {
       <p>Contacte amb nosaltres </p>
       </Link>     
       <div className='div5'>
-        <a href='https://instagram.com/vaquetes_guinardo?igshid=YmMyMTA2M2Y='><img className='redes' src={insta} height='30' width='30' /></a>
-        <a href='https://www.facebook.com/vaquetesdelguinardo'><img className='redes' src={facebook} height='30' width='30' /> </a>
+        <a href='https://instagram.com/vaquetes_guinardo?igshid=YmMyMTA2M2Y='><img alt='' className='redes' src={insta} height='30' width='30' /></a>
+        <a href='https://www.facebook.com/vaquetesdelguinardo'><img alt='' className='redes' src={facebook} height='30' width='30' /> </a>
       </div>
     </div>
 
