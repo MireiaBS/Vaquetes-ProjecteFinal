@@ -8,8 +8,9 @@ button {
 
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: rgba(50, 108, 44, 0.02);
+    background-color: #001704;
     opacity: 100%;
+    margin: 0cm;
     
 }
 

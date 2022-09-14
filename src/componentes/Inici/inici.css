@@ -1,11 +1,13 @@
 .div-video {
     background-color: #ecf5ef;
-    height: 20cm;
-    width: 90%;
+    height:auto;
+    width: 80%;
     margin:0cm;
     padding-top:1cm;
     display: flex;
     justify-content: center;
+    padding-bottom: 2cm;
+    margin-bottom: 1cm;
 }
 
 .article {
@@ -15,6 +17,12 @@
     margin:0 cm;
     background-color: rgb(247, 255, 246);
     height: 15cm;
-    width: 80%;
+    width: 90%;
+    padding-bottom: 1cm;
     
+}
+.p-inici {
+    font-size:40px;
+    color: #001704;
+    font-weight: 700;
 }

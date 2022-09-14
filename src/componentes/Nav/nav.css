@@ -1,27 +1,36 @@
+
 .container {
     display: flex;
     flex-direction: column;
     align-items: center;
     background-color: none;      
     width: 100%;
+    background: url(D:\Escritorio\Programació\REACT\tf\Final-Project\src\assets\img\vaq1.jpg) no-repeat center center; 
+    
 }
 
-.div-content {
-    border-top-right-radius: 5px;  
-    border-top-left-radius: 5px;  
-    height: 3.5cm;
-    background-color: #0E421E;
-    width: 90%;
+.div-content { 
+    height: 15cm;    
+    width: 100%;    
     display: flex ;
     justify-content: space-between;
     align-items: center;
+    
         
 }
+
+.filter-nav {
+    background-color: #08080850;
+    display: flex ;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
 .logo {
-    height: 2.5cm;
-    padding-left: 2.5cm;
-    cursor: pointer;
     
+    height: 10cm;
+    padding: 0.5cm 0cm 0.5cm 2cm;
+    cursor: pointer;
 }
 .div-redes{
     display: flex ;
@@ -30,7 +39,7 @@
 
 
 .parent {
-    width: 90%;
+    width: 80%;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: 1fr;
@@ -45,9 +54,10 @@
 }
     
 .div1 { 
+    background-color: #001704;
+    color:white;
     grid-area: 1 / 1 / 2 / 2;
     text-align: center;
-    border-top:1px solid #0E421E;
     transition: color 0.5s;
     transition: background-color 0.5s;
     cursor: pointer;
@@ -55,26 +65,30 @@
 }
 
 .div2 { 
+    background-color: #001704;
+    color:white;
     grid-area: 1 / 2 / 2 / 3; 
     text-align: center;
-    border-top:1px solid #0E421E;
     transition: color 0.5s;
     transition: background-color 0.5s;
     cursor: pointer;
 }
 
 .div3 { 
+    background-color: #001704;
+    color:white;
     grid-area: 1 / 3 / 2 / 4; 
     text-align: center;
-    border-top:1px solid #0E421E;
+   
     transition: color 0.5s;
     transition: background-color 0.5s;
     cursor: pointer;
 }
 
 .div4 { 
+    background-color: #001704;
+    color:white;
     grid-area: 1 / 4 / 2 / 5;  
-    border-top:1px solid #0E421E;
     text-align: center;
     transition: color 0.5s;
     transition: background-color 0.5s;
@@ -82,50 +96,48 @@
 }
 
 .div5 {
+    background-color: #001704;
+    color:white;
     grid-area: 1 / 5 / 2 / 6; 
     display: flex ;
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-top:1px solid #0E421E;
+    border-bottom:1px solid #001704;
     transition: color 0.5s;
     transition: background-color 0.5s;   
     justify-content: space-evenly
 }
 
 .div1:hover{
-    background-color: #0E421E;
-    color:white;  
-    border-top: 1px solid  #0E421E;
+    background-color: #e3e3e3;
+    color: #001704; 
     transition: color 0.5s;
     transition: background-color 0.5s;
 }
 
 .div2:hover {
-    background-color: #0E421E;
-    color:white;  
-    border-top: 1px solid white;
+    background-color: #e3e3e3;
+    color: #001704; 
     transition: color 0.5s;
     transition: background-color 0.5s;
 
 }
 .div3:hover {
-    background-color: #0E421E;
-    color:white;  
-    border-top: 1px solid white;
+    background-color: #e3e3e3;
+    color: #001704; 
     transition: color 0.5s;
     transition: background-color 0.5s;
 }
 .div4:hover {
-    background-color: #0E421E; 
-    color:white;   
-    border-top: 1px solid white;
+    background-color: #e3e3e3;
+    color: #001704;  
     transition: color 0.5s;
     transition: background-color 0.5s;
 }
 .div4::after {
-    color:#0E421E;
-    background-color: white;
+    background-color: #e3e3e3;
+    color: #001704; 
     transition: color 0.5s;
     transition: background-color 0.5s;
 }

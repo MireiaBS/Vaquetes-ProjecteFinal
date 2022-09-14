@@ -1,0 +1,43 @@
+.container-quisom {
+    height:auto;
+    width: 80%;
+    display: flex;    
+    justify-content: center;
+    padding-bottom: 2cm;
+    margin-bottom: 1cm;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ecf5ef;
+}
+
+.text-quisom {
+    margin-top:2cm;
+    font-size: 18px;
+    width: 65%;
+}
+
+.vaq1 {
+    height: auto;
+    width: 100%;
+    margin-bottom: 1cm;
+}
+
+.text-titol {
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.article {
+    padding-top:1cm;
+    display: flex;
+    justify-content: center;
+    margin:0 cm;
+    background-color: rgb(247, 255, 246);
+    height: auto;
+    width: 90%;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1cm;
+    
+}
+

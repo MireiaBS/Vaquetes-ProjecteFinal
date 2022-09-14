@@ -10,14 +10,13 @@ export const Nav = ({ user }) => {
 
   return (<div className='container'>
     <div className='div-content'>
-      <Link to='/' >
+      <div className="filter-nav">
+        <Link to='/' >
         <img src={logo} alt='' className='logo' />
       </Link>
-      <div>
-
-        <img src='https://c.tenor.com/Q8if3w9-KYwAAAAi/drums.gif' alt='' height='100' />
-      </div>
       <div className='div-redes'> <Home user={user}/></div>
+      </div>
+      
     </div>
 
     <div className='parent'>
