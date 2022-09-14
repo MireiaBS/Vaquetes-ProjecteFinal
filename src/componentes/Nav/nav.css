@@ -106,7 +106,7 @@
     border-bottom:1px solid #001704;
     transition: color 0.5s;
     transition: background-color 0.5s;   
-    justify-content: space-evenly
+    justify-content: center;
 }
 
 .div1:hover{
@@ -144,6 +144,7 @@
 
 .redes {
     cursor: pointer;
+    margin-right:0.5cm;
 }
 
 

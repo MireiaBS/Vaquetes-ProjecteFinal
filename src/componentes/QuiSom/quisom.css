@@ -11,7 +11,7 @@
 }
 
 .text-quisom {
-    margin-top:2cm;
+    margin-top:1cm;
     font-size: 18px;
     width: 65%;
 }
@@ -38,5 +38,12 @@
     align-items: center;
     padding-bottom: 1cm;
     
+}
+
+.titol-seccio {
+    width: 90%;
+    font-size: 50px;
+    border-bottom: 3px solid rgba(3, 50, 16, 0.711);
+    color:rgba(3, 50, 16, 0.711);
 }
 

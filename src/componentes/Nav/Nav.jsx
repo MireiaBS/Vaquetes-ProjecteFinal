@@ -34,8 +34,8 @@ export const Nav = ({ user }) => {
       <p>Contacte amb nosaltres </p>
       </Link>     
       <div className='div5'>
-        <a href='https://instagram.com/vaquetes_guinardo?igshid=YmMyMTA2M2Y='><img alt='' className='redes' src={insta} height='30' width='30' /></a>
-        <a href='https://www.facebook.com/vaquetesdelguinardo'><img alt='' className='redes' src={facebook} height='30' width='30' /> </a>
+        <a href='https://instagram.com/vaquetes_guinardo?igshid=YmMyMTA2M2Y='><img alt='' className='redes' src={insta} height='40' width='40' /></a>
+        <a href='https://www.facebook.com/vaquetesdelguinardo'><img alt='' className='redes' src={facebook} height='40' width='40' /> </a>
       </div>
     </div>
 
