@@ -30,6 +30,7 @@
 }
 
 .wrapper {
+    margin-top:0.5cm;
     padding: 0.5cm;
     background-color: rgba(7, 81, 35, 0.166);
     font-size: 18px;
