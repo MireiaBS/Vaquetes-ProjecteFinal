@@ -2,10 +2,10 @@
 .container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    background-color: none;      
+    align-items: center;   
     width: 100%;
     background: url(D:\Escritorio\Programació\REACT\tf\Final-Project\src\assets\img\vaq1.jpg) no-repeat center center; 
+    box-shadow: 0px 20px 50px 5px rgba(10, 192, 92, 0.454);
     
 }
 
@@ -15,6 +15,7 @@
     display: flex ;
     justify-content: space-between;
     align-items: center;
+    
     
         
 }
