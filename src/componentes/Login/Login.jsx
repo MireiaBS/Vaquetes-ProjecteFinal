@@ -25,13 +25,13 @@ export const Login = ({user}) => {
     
     if (estaRegistrandose) {
     const usuarioFinal = await createUserWithEmailAndPassword( auth, email, password)
-    console.log(usuarioFinal)
+    //console.log(usuarioFinal)
     } else {
       signInWithEmailAndPassword(auth, email, password)
     }
     
   }
-  console.log(password, email)
+  //console.log(password, email)
   return (<>
    { !user ? <div className='form-container'>
       <h1> {estaRegistrandose ? "Registra't " : "Inicia sessió"}</h1>

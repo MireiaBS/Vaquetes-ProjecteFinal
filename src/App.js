@@ -18,9 +18,11 @@ function App() {
     if(usuarioFirebase) {
       // codigo para sesion iniciada
       setUser(usuarioFirebase)
+      console.log('Esta iniciat:',user)
     } else {
       // codigo en caso de que no haya sesion iniciada
       setUser(null)
+      console.log('No està iniciat:',user)
     }
   })
   
