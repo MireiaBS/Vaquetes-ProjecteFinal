@@ -11,7 +11,7 @@ import '../Espectacles/espectacles.css'
 import { es } from 'date-fns/locale';
 registerLocale("es", es)
 
-export const Espectacles = () => {
+export const Espectacles = ({user}) => {
 
   const locales = {
     "en-US": require("date-fns/locale/en-US"),
@@ -46,6 +46,8 @@ export const Espectacles = () => {
       <div className='div-container'>
         <h1 className='titol-seccio'>Actuacions</h1>             
         <Calendar locale="es" localizer={localizer} events={allEvents} startAccessor="start" endAccessor="end" style={{ width: 1100 ,height: 500, margin: "50px" }} />
+        
+        { user ?<>
         <h2>Afegir event</h2>
         <div className='calendar'>
             <input type="text" placeholder="Titol"  value={newEvent.title} onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })} />
@@ -54,7 +56,8 @@ export const Espectacles = () => {
             <button  className='button-login' onClick={handleAddEvent}>
                Afegir
             </button>
-        </div>              
+        </div> </>  : null}
+                    
       </div>
     </div>
   );

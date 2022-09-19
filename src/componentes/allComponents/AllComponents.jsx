@@ -29,7 +29,7 @@ export const AllComponents = ({user}) => {
             <Route path='/espectacles' element={
               <>
                 <Nav user={user}/>
-                <Espectacles />
+                <Espectacles user={user}/>
               </>
             }>
             </Route>

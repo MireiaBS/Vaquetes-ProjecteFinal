@@ -23,7 +23,7 @@ export const Home = ({ user }) => {
 
         <div className='login-text'>
           <button className='p-hello no-underline'>
-            <Link to='/registre' >Iniciar sessió</Link></button>
+            <Link to='/registre' className='p-hello no-underline' >Iniciar sessió</Link></button>
         </div>
       </div>
      : sessioTancada ?
@@ -39,7 +39,7 @@ export const Home = ({ user }) => {
               <div className='login-text'>
                 <p className='p-hello'> Hola de nou!   </p>
                 <button className='p-hello' onClick={changeStates}>
-                  <Link to='/'> |
+                  <Link to='/' className='p-hello no-underline'> |
                     Tancar sessió
                   </Link></button>
               </div>
