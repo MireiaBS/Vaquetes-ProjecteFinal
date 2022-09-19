@@ -6,9 +6,10 @@ import insta from '../../assets/img/instagram.png'
 import facebook from '../../assets/img/facebook.png'
 import { Link } from 'react-router-dom'
 
-export const Nav = ({ user }) => {
+export const Nav = ({ user, weather}) => {
 
   return (<div className='container'>
+    <div className='weather'>{weather}</div>
     <div className='div-content'>
       <div className="filter-nav">
         <Link to='/' >

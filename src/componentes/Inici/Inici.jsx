@@ -6,7 +6,7 @@ export const Inici = () => {
   <div className='div-video'>
     <div className="article">
       <p className='p-inici'> Si encara no saps què fem... mira't aquest vídeo!</p>
-    <iframe src="https://www.youtube.com/embed/-CU-n7xpKk0"
+      <iframe className='video' src="https://www.youtube.com/embed/-CU-n7xpKk0"
       title="Video Vaquetes"
       allow="autoplay;"
       allowFullScreen

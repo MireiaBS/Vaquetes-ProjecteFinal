@@ -86,3 +86,11 @@ textarea {
     transition: color 0.3s;
     transition: background-color 0.3s;
 }
+
+
+@media (max-width: 425px) {
+
+    .input-form{
+        width: 80%;
+    }
+}

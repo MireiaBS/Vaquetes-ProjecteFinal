@@ -26,3 +26,13 @@
     color: #001704;
     font-weight: 700;
 }
+.video{
+    width: 80%;
+}
+
+@media (max-width: 425px) {
+
+    .video{
+        height: 5cm;
+    }
+}

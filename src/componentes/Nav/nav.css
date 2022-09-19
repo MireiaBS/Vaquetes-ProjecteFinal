@@ -153,3 +153,21 @@
 .no-underline {
     text-decoration: none;
 }
+
+.weather {
+    font-size: 20px;
+    font-weight:500;
+    background-color: #0e421e16;
+    padding: 5px;
+}
+
+@media (max-width: 425px) {
+
+    .filter-nav{
+        flex-direction: column;
+    }   
+    .logo {
+        height: 60%;
+        width: 60%;
+    }
+}

@@ -45,7 +45,7 @@ export const Espectacles = ({user}) => {
     <div className='container-contacte '>
       <div className='div-container'>
         <h1 className='titol-seccio'>Actuacions</h1>             
-        <Calendar locale="es" localizer={localizer} events={allEvents} startAccessor="start" endAccessor="end" style={{ width: 1100 ,height: 500, margin: "50px" }} />
+        <Calendar className='big-calendar 'locale="es" localizer={localizer} events={allEvents} startAccessor="start" endAccessor="end" style={{ height: 500 }} />
         
         { user ?<>
         <h2>Afegir event</h2>
